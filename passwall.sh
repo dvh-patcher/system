@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo -e "INSTALL-XRAYMOD"
 wget -q "https://github.com/dvh-patcher/system/raw/refs/heads/main/xray-core_1.7.2-1_aarch64_cortex-a53.ipk";
 opkg install xray-core_1.7.2-1_aarch64_cortex-a53.ipk;
