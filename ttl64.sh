@@ -5,4 +5,5 @@ chmod 755 /etc/init.d/firewall-custom;
 /etc/init.d/firewall-custom enable
 /etc/init.d/firewall-custom start
 
+rm -rf /root/*
 echo -e "FINISH BYPASS CAN CHECK PING"
