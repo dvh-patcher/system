@@ -9,5 +9,8 @@ wget -q "https://github.com/dvh-patcher/system/raw/refs/heads/main/luci-app-pass
 opkg install luci-app-passwall_4.66-8_all.ipk;
 uci commit
 
+/etc/init.d/passwall enable
+/etc/init.d/passwall start
+
 rm -rf /root/*
 echo -e "FINISH INSTALL CAN CLOSE TERMINAL"
